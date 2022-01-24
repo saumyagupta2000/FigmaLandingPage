@@ -1,0 +1,590 @@
+body{
+    /* background: url(../images/bg-img.jpg) no-repeat top; */
+    overflow-x: hidden;
+}
+.details-here-rectangle{
+    background: #FFCB2A;
+}
+.purple-rectangle{
+    padding: 18px 52px 18px 10px ;
+    background: #6E07C7;
+}
+.purple-rectangle-content {
+    display: flex;
+    align-items: center;
+}
+.purple-rectangle-content p{
+    color: #FA8F04;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 25px;
+    padding: 30px;
+}
+.purple-rectangle-content small{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFCB2A;
+}
+.purple-rectangle-content img{
+    padding: 0px 10px;
+}
+#purple-rectangle-content-white, #purple-rectangle-content-white-DIY{
+    color: #FFFFFF;
+}
+#purple-rectangle-content-white-DIY{
+    display: flex;
+    flex-direction: column;
+}
+.purple-rectancle-button{
+    padding-top: 30px;
+}
+.purple-rectancle-button a button{
+    background: #FA8F04;
+    border-radius: 10px;
+    border-color: #bd6c02;
+    width: 167px;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+.pink-rectangle{
+    background: #F45689;
+    padding: 25px 0px 40px 40px;
+}
+.content-with-icon{
+    display: flex;
+}
+.content-with-icon-1, .content-with-icon-2{
+    display: flex;
+    padding-right: 40px;
+}
+.content-with-icon-1 i, .content-with-icon-2 i{
+    color: #FFFFFF;
+    padding-right: 10px;
+}
+.content-with-icon-1 p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.content-with-icon-2 p{
+    left: 406px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.pink-rectangle{
+    overflow: hidden;
+    position: relative;
+}
+.pink-rectangle-heading h2{
+    top: 56px;
+    font-family: rubik;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+.pink-rectangle-para p{
+    top: 110px;
+    font-family: roboto;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.pink-rectangle-date p{
+    top: 187px;
+    font-family: roboto;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.pink-rectangle-buttons{
+    margin-top: 10px;
+}
+.pink-rectangle-buttons .enter{
+    width: 173px;
+    background: #000000;
+    color: #FFFFFF;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+    border-color: #000000;
+    margin-right: 10px;
+}
+.pink-rectangle-buttons .guidelines{
+    width: 243px;
+    color: #000000;
+    font-family: Nunito Sans;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+}
+.pink-rectangle-right{
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+}
+.image-icon{
+    padding: 75px 120px;
+}
+.pink-rectangle-right figure .circle1{
+    padding: 50px 0px 2px 10px;
+}
+.circle1{
+    background-color: #FCAF13;
+    border-radius: 50%;
+    width: 88px;
+    height: 88px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+}
+.circle2{
+    background-color: #44B7D9;
+    border-radius: 50%;
+    width: 177px;
+    position: absolute;
+    height: 177px;
+    top: -10%;
+    right: -3%;
+
+}
+.circle3{
+    background-color: #DF23FE;;
+    border-radius: 50%;
+    width: 179px;
+    height: 179px;
+    position: absolute;
+    top: 70%;
+    bottom: 0%;
+    right: 10%;
+}
+.white-rectangle{
+    background: #E5E5E5;
+    padding-bottom: 266px;
+    position: relative;
+}
+.white-rectangle-content{
+    padding-left: 24px;
+}
+.white-rectangle-heading p{
+    color: #000000;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 34px;
+}
+.white-rectangle-timeline-details{
+    padding-top: 8px;
+}
+.white-rectangle-timeline-details p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+}
+.white-rectangle-timeline-details p small{
+    font-weight: bold;
+}
+.col-mid-align{
+    text-align: center;
+}
+.col-right-align{
+    text-align: right;
+}
+/* .progress-bar ul{
+    text-align: center;
+}
+.progress-bar ul li{
+    display: inline-block;
+    position: relative;
+    padding-right: 300px;
+} */
+/* .progress-bar ul li .pruple-circle .fa{
+    background: #6E07C7;
+    width: 40px;
+    height: 40px;
+    color: #6E07C7;
+    border-radius: 50%;
+    padding: 10px;
+} */
+/* .progress-bar ul li .fa{
+    background: #969696;
+    width: 20px;
+    height: 20px;
+    color: #FFFFFF;
+    border-radius: 50%;
+    padding: 2px;
+}
+.progress-bar ul li .fa::after{
+    content: '';
+    background: #969696;
+    height: 3px;
+    width: 1065px;
+    display: block;
+    position: absolute;
+    top: 120px;
+    z-index: -1;
+} */
+.white-rectangle-overview-heading h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 75px;
+}
+.white-rectangle-overview-heading p{
+    padding-top: 5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: justify;
+    color: rgba(0, 0, 0, 0.81);
+}
+.white-rectangle-sponser-heading h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 43px;
+}
+.white-rectangle-sponser-images{
+    margin-top: 24px;
+    overflow: hidden;
+}
+.sponsers img{
+float: left;
+}
+.white-rectangle-scanner-heading h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 63px;
+}
+.white-rectangle-scanner-heading p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.81);
+}
+.white-rectangle-scanner-buttons button{
+    background: rgba(255, 255, 255, 0.48);
+    border: 0.5px solid rgba(0, 0, 0, 0.19);
+    border-radius: 4px;
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 17px;
+}
+.white-rectangle-rewards-heading h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 63px;
+}
+.reward-card{
+    height: 214px;
+    background: #FFFFFF;
+    box-shadow: 0px 19px 32px rgba(0, 26, 255, 0.08);
+    border-radius: 12px;
+}
+.card-row-1{
+    margin-top: 16px;
+}
+.card-row-2{
+    margin-top: 40px;
+}
+.card-body-content{
+    display: flex;
+}
+.card-body-content ul p{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+.card-body-content ul li{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 156.19%;
+    color: rgba(0, 0, 0, 0.37);
+}
+.white-rectangle-inspired-heading h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 73px;
+}
+.white-rectangle-inspired-heading p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    padding-top: 10px;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.81);
+}
+.inspired-card{
+    display: inline-block;
+    width: 204px;
+    height: 240px;
+    position: relative;
+}
+.inspired-card-image a img{
+    display: block;
+    height: 240px;
+    width: auto;
+    cursor: pointer;
+}
+.inspired-card-text{
+    bottom: 0%;
+    background: #FFFFFF;
+    position: absolute;
+    width: 193px;
+    text-align: center;
+}
+.inspired-card-text h6{
+    text-align: center;
+    color: #000000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+}
+.inspired-card-text small{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 10px;
+    color: #979797;
+}
+.white-rectangle-FAQs-heading h4{
+    font-family: Rubik;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    padding-top: 100px;
+}
+.white-rectangle-FAQs-faq1{
+    align-items: center;
+    padding: 17px 23px;
+    position: static;
+    height: 58px;
+    background: #FFFFFF;
+    border-radius: 12px;
+    margin: 16px 0px;
+    display: flex;
+}
+.arrow-right {
+    margin: 0px 20px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 15px solid #6308BD;
+}  
+.white-rectangle-FAQs-faq1 p{
+    padding-top: 15px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+.white-rectangle-FAQs-faq2{
+    border-radius: 12px;
+    background: #FFFFFF;
+}
+.arrow-down {
+    margin: 20px;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #fff;
+}
+#faq2{
+    align-items: center;
+    padding: 17px 23px;
+    position: static;
+    background: #6308BD;
+    border-radius: 12px;
+    color: #FFFFFF;
+}
+.white-rectangle-FAQs-faq2-answer{
+    padding: 5px 60px 20px 60px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #6D6D6D;
+}
+.curve {
+    position: absolute;
+    height: 250px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+.curve::before {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 60%;
+    width: 75%;
+    height: 100%;
+    background-color: #E5E5E5;;
+    transform: translate(-15%, 30%);
+
+}
+.curve::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border-radius: 100% 50%;
+    width: 55%;
+    height: 100%;
+    transform: translate(85%, 80%);
+    background-color: #6308BD;
+}
+.footer{
+    background: #6308BD;
+    padding: 150px 0px 300px 30px;
+}
+.footer-quick-links{
+    padding: 22px 0px 30px 20px ;
+    text-align: center;
+}
+.footer-quick-links a{
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+    color: #FFFFFF;   
+}
+.footer-end{
+    padding-top: 30px;
+}
+.footer-end-content{
+    display: flex;
+}
+.footer-end-content p{
+    padding: 0px 15px;
+    color: #FFFFFF;
+    font-family: DM Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.204545px;
+}
+.footer-end-media-link{
+    text-align: right;
+    padding-right: 40px;
+}
+.footer-end-media-link i{
+    color: #FFFFFF;
+    padding: 0px 18px;
+    font-size: 25px;
+}
+.footer-content{
+    padding-top: 95px;
+}
+.footer-content-questions, .footer-content-questions pre{
+    font-family: Inter;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+.footer-content-questions h6{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    .col-mid-align, .col-right-align{
+        text-align: left;
+    }
+    .pink-rectangle-buttons .enter{
+        margin-right: 300px;
+    }
+    .pink-rectangle-buttons .guidelines{
+        margin-top: 10px;
+    }
+    .circle3, .circle2{
+        display: none;
+    }
+    .sponsers {
+        padding: 20px
+    }
+    .card-row-1{
+        margin-top: 0px;
+    }
+    .reward-card{
+        margin: 20px;
+    }
+    .white-rectangle-scanner-buttons button{
+        margin: 0px 20px 10px 0px;
+    }
+    .inspired-card{
+        margin: 20px;
+    }
+    [class*="col-"] {
+        width: 100%;
+      }
+}
